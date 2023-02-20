@@ -28,3 +28,4 @@ ulimit -n 65536
 
 Rscript geno_by_pheno.R ../../output/maylandia_n91_posteriors.$1.$2.geno.gz \
 ../../data/maylandia_n91_theis_values.txt $1_$2 TheisCount GxP_Theis_count.$1_$2 ../../data/maylandia_PC_covariates_1%.list >> maylandia_n91_theis_values.OutSum 
+well done
